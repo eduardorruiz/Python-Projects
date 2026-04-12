@@ -1,4 +1,4 @@
-    lista = ['Corinthians', 'Palmeiras', 'Santos', 'São Paulo']
+lista = ['Corinthians', 'Palmeiras', 'Santos', 'São Paulo']
 
 lista.append('Portuguesa') #.append adiciona no final da lista, ent Portuguesa ficou na quarta posição
 lista.insert(0, 'Brasil')#.insert abre um espaço na numeração escolhida e adiciona algo lá
@@ -41,3 +41,9 @@ b = a
 b[0] = 10
 # na lista a e na lista b o primeiro elemento sera dez, no python quando se iguala uma lista elas se conectam
 c = a[:] # ASSIM criou uma cópia!!!
+
+"""print(d) #mostra (4, 5, 6, 1, 2, 3)
+print(c.count(5)) # isso é: quantas vezes está aparecendo 5 em c, no caso 1.
+print(c.index(5)) # isso é: em qual posição está o 5, no caso 4.
+# se tivesse dois 5, e um deles estivesse depois do primeiro, poderia usar
+# print(c.index(5, 4)) esse 4 é a partir dessa posição."""
