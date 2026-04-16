@@ -12,13 +12,12 @@ while cont < N:
     cont += 1
 print(lista)
 X = int(input('Digite X: '))
+if X not in lista:
+    print(f'{X} não está na lista.')
 while i < N:
     if lista[i] == X:
         print(f'{X} foi encontrado na lista, como elemento [{i}]')
-        print(lista)
         del lista[i]
-        print(lista)
+        lista.insert(i, 'X') #APENAS ELIMINANDO ESTAVA DANDO ERRO, ENTÃO INSERI UM X ONDE FOI ELIMINADO
     i += 1
-if X not in lista:
-    print(f'{X} não está na lista.')
 print(lista)
