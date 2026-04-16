@@ -1,4 +1,4 @@
-    lista = ['Corinthians', 'Palmeiras', 'Santos', 'São Paulo']
+lista = ['Corinthians', 'Palmeiras', 'Santos', 'São Paulo']
 
 lista.append('Portuguesa') #.append adiciona no final da lista, ent Portuguesa ficou na quarta posição
 lista.insert(0, 'Brasil')#.insert abre um espaço na numeração escolhida e adiciona algo lá
