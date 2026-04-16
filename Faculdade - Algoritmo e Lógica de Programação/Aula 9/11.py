@@ -7,7 +7,7 @@ N = int(input('Digite N: '))
 cont = i = 0
 lista = []
 while cont < N:
-    n = randint(0, 10)
+    n = randint(0, 1000)
     lista.append(n)
     cont += 1
 print(lista)
