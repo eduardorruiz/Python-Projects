@@ -1,8 +1,5 @@
-""" Desenvolva um programa que leia do teclado um número inteiro e mostre na tela se esse número é
-primo ou não. Lembrando: um número primo é divisível somente por 1 e por ele mesmo. """
-print('-=-' * 12)
-print('Verificador de primos')
-print('-=-' * 12)
+# Adicionar condições para o laço de teste rodar menos vezes
+
 n = int(input('Digite um número: '))
 cont = 1
 total = 0

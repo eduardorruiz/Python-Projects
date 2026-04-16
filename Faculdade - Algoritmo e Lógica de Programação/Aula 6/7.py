@@ -15,8 +15,11 @@ while n > 0:
     if n < menor:
         menor = n
     n = int(input('Digite mais um número: '))
-media = soma / cont
-print('O maior número informado foi [{}] e o menor foi [{}].'.format(maior, menor))
-print('A quantidade de valores válidos informados foi de [{}].'.format(cont))
-print('A soma de todos os valores informados foi de [{}].'.format(soma))
-print('A média de todos os valores informados foi de [{}].'.format(media))
+if cont > 0:
+    media = soma / cont
+    print('O maior número informado foi [{}] e o menor foi [{}].'.format(maior, menor))
+    print('A quantidade de valores válidos informados foi de [{}].'.format(cont))
+    print('A soma de todos os valores informados foi de [{}].'.format(soma))
+    print('A média de todos os valores informados foi de [{}].'.format(media))
+else:
+    print('Não foi digitado um valor válido, tente novamente.')
