@@ -28,8 +28,8 @@ for pessoa in galera:
 turma = list()
 dadostemporarios = list()
 for cont in range(0, 3):
-    dado.append(str(input('Nome: ')))
-    dado.append(int(input('Idade: ')))
+    dadostemporarios.append(str(input('Nome: ')))
+    dadostemporarios.append(int(input('Idade: ')))
     galera.append(dadostemporarios[:])
     dadostemporarios.clear() # Limpa os dados
 print(turma)
