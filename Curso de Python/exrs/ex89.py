@@ -10,14 +10,13 @@ print('{:*^30}'.format(' PROGRAMA DE BOLETIM '))
 
 print('-' * 30)
 while resposta == 'S':
+    # poderia adicionar tudo com temporaria.append([nome], [nota1, nota2], media])
     nome = str(input('Nome: ')).capitalize().strip()
     temporaria.append(nome)
     nota1 = float(input('Nota 1: '))
-    temporaria.append(nota1)
     nota2 = float(input('Nota 2: '))
-    temporaria.append(nota2)
+    temporaria.append([nota1, nota2])
     media = (nota1 + nota2) / 2
-    media = int(media)
     temporaria.append(media)
     lista.append(temporaria[:])
     temporaria.clear()
@@ -25,8 +24,17 @@ while resposta == 'S':
     while resposta != 'S' and resposta != 'N':
         resposta = str(input('ERRO, Quer continuar [S/N]? ')).strip().upper()[0]
     print('--' * 13)
-
-"""for i, pessoa in enumerate(lista):
-    print(f'Aluno {i}: {pessoa[i][0]:^10} | [{pessoa[i][3]:^5}].')"""
-#print(lista)
+for i, a in enumerate(lista):
+    print(f'{i+1:<4}{a[0]:<10}{a[2]:>8.1f}')
+    print('--' * 13)
+resp = str(input('Deseja ver as notas de algum aluno [S/N]: ')).strip().upper()[0]
+while resp == 'S':
+    opcao = int(input('Digite o índice do aluno, que deseja ver as notas: '))
+    opcao = opcao - 1
+    if opcao > -1:
+        if opcao <= len(lista) - 1:
+            print(f'Notas de {lista[opcao][0]} são {lista[opcao][1]}')
+    resp = str(input('Quer continuar [S/N]: ')).strip().upper()[0]
+    while resp != 'S' and resp != 'N':
+        resp = str(input('ERRO, Quer continuar [S/N]: ')).strip().upper()[0]
 print('\nFim do Programa')
