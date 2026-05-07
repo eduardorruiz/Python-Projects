@@ -1,4 +1,4 @@
-
+# Exercio de Modulos --> 16 a 21
 import math
 # from math import sqrt, ceil, floor
 num = int(input('Digite um número: '))

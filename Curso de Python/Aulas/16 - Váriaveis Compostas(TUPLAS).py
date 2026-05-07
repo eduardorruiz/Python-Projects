@@ -1,3 +1,4 @@
+# Exercícios de Tupla --> 72 a 77
 lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim') # Pode sem parenteses também
 # Tuplas são IMUTÁVEIS!
 # Fatiamento

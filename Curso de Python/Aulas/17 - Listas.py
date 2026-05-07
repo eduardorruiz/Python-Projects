@@ -1,3 +1,4 @@
+# Exercícios de Lista --> 78 a 83 e Listas 2 --> 84 a 89
 lista = ['Corinthians', 'Palmeiras', 'Santos', 'São Paulo']
 
 lista.append('Portuguesa') #.append adiciona no final da lista, ent Portuguesa ficou na quarta posição

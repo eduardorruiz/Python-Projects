@@ -1,3 +1,4 @@
+# Exercicios de IF e ELIF --> 36 a 45
 # Quando se tem uma condição com + de 2 caminhos: usa-se elif(else+if)
 nome = str(input('Qual é seu nome? '))
 if nome == 'Eduardo' or nome == 'Deivson' or nome == 'Thais':
