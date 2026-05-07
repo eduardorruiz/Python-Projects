@@ -1,3 +1,4 @@
+# Exercícios de manipulação de texto --> 22 a 27
 frase = 'Saudades da Pietra'
 # FATIAMENTO
 print(frase[12])

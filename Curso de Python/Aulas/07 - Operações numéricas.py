@@ -1,3 +1,4 @@
+# Exercícios de Operações Numéricas --> 5 a 15
 # ** = potência
 # // = divisão inteira
 # % = resto da divisão
