@@ -8,8 +8,14 @@ cont = cont2 = 0
 lista = []
 while cont < N:
     valor = int(input(f'Digite {cont}° valor: '))
-    lista.append(valor)
+    if valor not in lista:
+        lista.append(valor)
+        print('adicionando...')
+        print(lista)
     cont += 1
-print(lista)
+print(f'A lista completamente preenchida foi: {lista}')
+lugares = []
+for valor in lista:
+    contador = lista.count(valor)
 
 #Falta procurar os repetidos e exclui-los!
