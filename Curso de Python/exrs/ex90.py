@@ -6,7 +6,7 @@ média = float(input('Digite sua média: '))
 dados['média'] = média
 if média > 6:
     dados['Situação'] = 'APROVADO'
-elif:
+elif 6 > média > 4:
     dados['Situação'] = 'RECUPERAÇÃO'
 else:
     dados['Situação'] = 'REPROVADO'
