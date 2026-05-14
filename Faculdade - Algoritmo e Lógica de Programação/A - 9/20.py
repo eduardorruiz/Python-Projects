@@ -10,4 +10,6 @@ while N < 11:
 for c in range(1, N):
     num = randint(1, 100)
     lista.append(num)
+# FALTA ORGANIZAR A LISTA COM O METODO BOLHA, NAO ESTA FEITO CERTO
+lista.sort()
 print(lista)

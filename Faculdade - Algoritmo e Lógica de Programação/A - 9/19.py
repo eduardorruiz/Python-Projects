@@ -8,4 +8,4 @@ num = int(input('Digite o valor de N: '))
 lista.append(num)
 while num > 0:
     num = int(input('Digite o valor de N: '))
-    if num
+# FALTA TERMINAR
