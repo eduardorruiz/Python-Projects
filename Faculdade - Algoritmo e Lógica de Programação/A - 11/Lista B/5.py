@@ -11,3 +11,6 @@ MEGABOBAGEM - MADAM I'M ADAM
 ANOTARAM A DATA DA MARATONA - EVA, CAN I STAB BATS IN A CAVE?
 SOCORRAM-ME, SUBI NO ÔNIBUS EM MARROCOS! - DID I DRAW DELLA TOO TALL, EDWARD? I DID?
 A GRAMA É AMARGA - NO LEMON, NO MELON. """
+frase = 'abc'
+while frase != '':
+    frase = input('Digite uma frase: ').strip().upper()
