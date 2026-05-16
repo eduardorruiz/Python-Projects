@@ -17,3 +17,22 @@ Salário Bruto: : R$ 1100,00
 FGTS (11%) : R$ 121,00
 Total de descontos : R$ 165,00
 Salário Liquido : R$ 935,00 """
+
+salario = float(input('Digite o salário Bruto mensal: R$'))
+cinco = salario * 5 / 100
+dez = salario * 10 / 100
+vinte = salario * 20 / 100
+fgts = salario * 11 / 100
+if salario < 901:
+    salario = salario
+elif 900 < salario < 1501:
+    salario = salario - cinco
+elif 1500 < salario < 2501:
+    salario = salario - dez
+else:
+    salario = salario - vinte
+
+
+print(ir)
+print(inss)
+print(fgts)
