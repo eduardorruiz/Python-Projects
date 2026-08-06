@@ -12,14 +12,15 @@ def notas(*n, sit=False):
     notas['maior'] = max(n)
     notas['menor'] = min(n)
     notas['média'] = sum(n)/len(n)
-    if notas['média'] >= 7:
-        notas['situação'] = 'BOA'
-    elif notas['média'] >= 5:
-        notas['situação'] = 'RAZOÁVEL'
-    else:
-        notas['situação'] = 'RUIM'
+    if sit == True:
+        if notas['média'] >= 7:
+            notas['situação'] = 'BOA'
+        elif notas['média'] >= 5:
+            notas['situação'] = 'RAZOÁVEL'
+        else:
+            notas['situação'] = 'RUIM'
     return notas
 #Prog Principal
-resp = notas(6, 8, 10, sit=True)
+resp = notas(6, 8, 10, sit = True)
 help(notas)
 print(resp)
