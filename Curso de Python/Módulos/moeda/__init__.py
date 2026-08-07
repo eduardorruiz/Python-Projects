@@ -1,11 +1,14 @@
-def aumentar(preço, taxa):
+def aumentar(preço = 0, taxa = 0):
     return preço + (preço * taxa/100)
 
-def diminuir(preço, taxa):
+def diminuir(preço= 0, taxa = 0):
     return preço - (preço * taxa/100)
 
-def dobro(preço):
+def dobro(preço= 0):
     return preço * 2
 
-def metade(preço):
+def metade(preço= 0):
     return preço / 2
+
+def moeda(preço = 0, moeda = 'R$'):
+    return f'{moeda}{preço:.2f}'.replace('.', ',')
