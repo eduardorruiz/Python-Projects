@@ -7,9 +7,7 @@ aum = moeda.aumentar(num, 10) # Esse parametro 10 signiifica que está aumentand
 dim = moeda.diminuir(num, 10) # Esse parametro 10 signiifica que está diminuindo 10%
 dob = moeda.dobro(num)
 met = moeda.metade(num)
-print(f'Aumentando 10%, temos R${moeda.moeda(aum)}.')
-print(f'Diminuindo 10%, temos R${moeda.moeda(dim)}.')
-print(f'O dobro de {moeda.moeda(num)} é {moeda.moeda(dob)}.')
-print(f'A metade de {moeda.moeda(num)} é {moeda.moeda(met)}.')
-
-# A função moeda.moeda() é apenas pra formatar, deixando R$:??,??
+print(f'Aumentando 10%, temos R${moeda.formatação(aum)}.')
+print(f'Diminuindo 10%, temos R${moeda.formatação(dim)}.')
+print(f'O dobro de {moeda.formatação(num)} é {moeda.formatação(dob)}.')
+print(f'A metade de {moeda.formatação(num)} é {moeda.formatação(met)}.')
