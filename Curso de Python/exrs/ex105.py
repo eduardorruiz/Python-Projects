@@ -22,5 +22,7 @@ def notas(*n, sit=False):
     return notas
 #Prog Principal
 resp = notas(6, 8, 10, sit = True)
+resp2 = notas(10, 10, 10, 10, 8)
 help(notas)
 print(resp)
+print(resp2)
