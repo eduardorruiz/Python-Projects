@@ -1,6 +1,8 @@
 # Aula 01 - - - - - - - - - - - - - - - - - - -
+from urllib.parse import uses_params
 
-    # OOP - Object Oriented Programming
+
+# OOP - Object Oriented Programming
     # OOAD - Object Oriented Analysis and Design ( Analise e Projeto de Sistemas Orientado a Objetos )
     # UML
 
@@ -83,3 +85,49 @@ print(MinhaClasse.__doc__) # Dunder Attribute (__doc__)
 
 # Metodo __class__ (Dunder Attribute também)
     # Mostra o nome da classe do objeto que você coloca
+
+# Aula Extra - RICH Library - - - - - - - - - - - - - - - - - - -
+# VEJA EXEMPLOS NA PASTA RICH
+
+    # Ao importar a função print da biblioteca rich
+        # Podemos utilizar para colorir as coisas, assim:
+        # print("[red]Para pintar tudo isso de vermelho[/]")
+
+    # EMOJIS
+        # Para usar emoji é apenas fazer isso:
+        # print("nossa que joia:+1:") --> colocar o nome do emoji dentro de "::"
+
+    # Comando rich.emoji
+        # Ir no terminal e digitar: python -m rich.emoji
+        # Para ver a lista completa de todos os emojis.
+
+    # Classe Panel
+        # Para usar: Panel("A mensagem que quer dentro", title="caixa", style="red", width = 10)
+        # Width é a largura
+
+    # Classe Table
+        # Para usar: Table(title=""TITULO DA TABELA)
+        # Adicionar colunas: nome_da_tabela.add_column("COL 1", caracteristicas_aqui)
+        # Adicionar linhas: nome_da_tabela.add_column("linha 1", caracteristicas_aqui)
+        # Exemplos em rich/rich03
+
+    # Comando Install() de rich.traceback
+        # Para usar: from rich.tracebak import install
+        # Após isso apenas de um: install() --> no começo do programa
+        # Que ele vai deixar a mensagem, caso tenha algum erro, melhor.
+
+    # Comando inspect()
+        # Para usar: inspect(algum_objeto)
+        # Vai mostrar as informações sobre o objeto de maneira muito melhor.
+
+# Aula 0? - - - - - - - - - - - - - - - - - - -
+
+# Aula 0? - - - - - - - - - - - - - - - - - - -
+
+# Aula 0? - - - - - - - - - - - - - - - - - - -
+
+# Aula 0? - - - - - - - - - - - - - - - - - - -
+
+# Aula 0? - - - - - - - - - - - - - - - - - - -
+
+# Aula 0? - - - - - - - - - - - - - - - - - - -
