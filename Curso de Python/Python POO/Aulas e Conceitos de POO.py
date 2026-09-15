@@ -57,5 +57,29 @@ class MinhaClasse: #ideal que o nome da classe começe com letra MAIUSCULAS.
 obj = MinhaClasse() # Os "()" estão instanciando, chamando o metodo construtor
 # o metodo construtor é feito por ( def __init__(self): )
 
+# Aula 05 - - - - - - - - - - - - - - - - - - -
 
+# Para criar uma documentação para a classe abra """ e feche """, a seguir um exemplo:
+class MinhaClasse:
+    """
+    Essa classe é apenas um exemplo didático.
+    """
+# Para ver utilize
+print(MinhaClasse.__doc__) # Dunder Attribute (__doc__)
 
+# Metodo __str__ (Dunder Attribute também)
+    # O metodo str, mostra o endereço na mémoria oque é meio inutil e a classe que pertence
+    # então se utilizo um def __str__(self): Mostrando os dados de um jeito + amigavel
+    # Então antes era assim, por exemplo:
+        #print(fala1.mensagem())
+    # Depois do __str__(), fica assim:
+        #print(fala1)
+
+# Metodo __dict__ (Attribute)
+    # Mostra a exibição como se fosse um dicionário.
+
+# Metodo __getstate__() (Dunder Method(tem parenteses, por isso é um metodo))
+    # Mesma coisa que o __dict__, mas pode programar um estado.
+
+# Metodo __class__ (Dunder Attribute também)
+    # Mostra o nome da classe do objeto que você coloca
