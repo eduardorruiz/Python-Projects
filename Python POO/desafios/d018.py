@@ -51,7 +51,7 @@ class Churrasco:
         return self.calcular_custo_total() / self.participantes
 
     def analisar(self):
-        conteudo = f"Analisando [u blue bold]{self.title}[/] com [u bold]{self.participantes}[/] convidados"
+        conteudo = f"Analisando [u blue bold]{self.title}[/] com [u b]{self.participantes}[/] convidados"
         conteudo += f"\nCada participante comerá [u bold]{Churrasco.carne_por_pessoa}Kg[/] e cada Kg custa [red bold]R${Churrasco.kg_carne:,.2f}[/]"
         conteudo += f"\nRecomendo comprar [u bold]{self.calcular_qnt_carne()}Kg[/] de carne"
         conteudo += f"\nO custo total será de [bold red]R${self.calcular_custo_total():,.2f}[/] para comprar tudo"
