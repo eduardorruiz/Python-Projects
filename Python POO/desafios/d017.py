@@ -17,7 +17,7 @@ class Produto:
         preco_formatado = f"R${self.preco:,.2f}"
         conteudo += f"{preco_formatado.center(30, '.')}"
         etiqueta = Panel(conteudo, title = "Produto", width = 34)
-        print(etiqueta)
+        return print(etiqueta)
 
 p1 = Produto("Iphone 13 Pro Max", 2500)
 p2 = Produto("Notebook Asus Vivobook", 3200)
