@@ -103,7 +103,6 @@ print(MinhaClasse.__doc__) # Dunder Attribute (__doc__)
 
     # Classe Panel
         # Para usar: Panel("A mensagem que quer dentro", title="caixa", style="red", width = 10)
-        # Width é a largura
 
     # Classe Table
         # Para usar: Table(title=""TITULO DA TABELA)
