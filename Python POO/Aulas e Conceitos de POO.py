@@ -119,7 +119,20 @@ print(MinhaClasse.__doc__) # Dunder Attribute (__doc__)
         # Para usar: inspect(algum_objeto)
         # Vai mostrar as informações sobre o objeto de maneira muito melhor.
 
-# Aula 0? - - - - - - - - - - - - - - - - - - -
+# Aula 13 - - - - - - - - - - - - - - - - - - -
+
+    # HERANÇA
+        # Para criar uma herança no python, vccê cria a classe principal, ex: Pessoa.
+        # E para relacionar as sub-classes, você anexa elas com sub-classe(SuperClasse), ex: Estudantes(Pessoa).
+            # Nas sub-classes dentro do metodo construtor( def __init__(self, "atributos da superclasse + atributos sub-classe"): ),
+            # você coloca: super().__init__(self, "atributo da superclasse")
+
+    # temos os exercicios 04 até 06
+        # O exercicio 04 está inteiro, em apenas um arquivo.
+        # O exercicio 05, está modularizado, em dois arquivos: um com as classes e o outro __main__(código principal).
+        # O exercicio 06, está modularizado, em diversos arquivos: um sendo o __main__, segundo sendo a classe Pessoa, ...
+            # No ex 06, também tem a criação da função main e a verificação dela.
+
 
 # Aula 0? - - - - - - - - - - - - - - - - - - -
 
