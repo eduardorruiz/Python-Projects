@@ -119,7 +119,7 @@ print(MinhaClasse.__doc__) # Dunder Attribute (__doc__)
         # Para usar: inspect(algum_objeto)
         # Vai mostrar as informações sobre o objeto de maneira muito melhor.
 
-# Aula 13 - - - - - - - - - - - - - - - - - - -
+# Aula 14 - - - - - - - - - - - - - - - - - - -
 
     # HERANÇA
         # Para criar uma herança no python, vccê cria a classe principal, ex: Pessoa.
@@ -134,7 +134,18 @@ print(MinhaClasse.__doc__) # Dunder Attribute (__doc__)
             # No ex 06, também tem a criação da função main e a verificação dela.
 
 
-# Aula 0? - - - - - - - - - - - - - - - - - - -
+# Aula 15 - - - - - - - - - - - - - - - - - - -
+
+    # ABSTRAÇÃO
+        # Ignorar o irrelevante, e mostrar ao usuario apenas o essencial.
+        # Principais vantagens: + Legibilidade, Padronização, Simplificação, Segurança.
+        # Se para o escopo do projeto, não faz sentido, abstraia.
+        # Classe Abstrata é aquela que não produz obejetos, mas serve de base para classes concretas.
+        # Nas classes abstratas, podem ter os metódos abstratos, que são aqueles que todos os objetos fazem igual
+            # Por exemplo, fazer aniversário.
+        # Porém, podem ter também os métodos abstratos({abstract}), que são aqueles que cada objeto faz do seu jeito.
+            # Portanto, o metodo abstrato é herdado para o objeto
+            # ex: botão de ligar e desligar, todos controle tem, mas cada um desliga e liga de maneira diferente.
 
 # Aula 0? - - - - - - - - - - - - - - - - - - -
 
